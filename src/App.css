@@ -1,4 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+}
+
+.card-content {
+  padding-left: 3%;
+  padding-top: 5%;
+  min-height: 168px;
+  margin-right: 4%;
+}
+
 img {
   width: 125px;
   height: 168px;
+  border-radius: 5px;
+  margin-left: 5%;
+}
+
+.location-icon {
+  color: #F55A5A;
+  margin-right: 5px;
+}
+
+.earth-icon {
+  color: white;
+  padding-left: 2%;
+  font-size: 24px;
+}
+
+.header {
+  background: #F55A5A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 55px;
+  margin-bottom: 2%;
+}
+
+.travel-title {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 2%;
+}
+
+.location-title {
+  font-weight: 700;
+  font-size: 25px;
+  color: #2B283A;
+  margin-bottom: 2%;
+}
+
+a {
+  color: #918E9B;
+  font-size: 11px;
+}
+
+.location-name {
+  letter-spacing: 0.17em;
+  color: #2B283A;
+  font-size: 11px;
+  margin-right: 5px;
+}
+
+.date {
+  font-weight: 700;
+  font-size: 11px;
+  color: #2B283A;
+}
+
+.description {
+  font-size: 11px;
+  color: #2B283A;
+}
+
+hr {
+  margin-left: 4%;
+  margin-right: 4%;
+  color: #F5F5F5;
 }
